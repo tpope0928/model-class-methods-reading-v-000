@@ -17,7 +17,6 @@ class PostsController < ApplicationController
     # if no filters are applied, show all posts
     @posts = Post.all
   end
-end
 
   def show
     @post = Post.find(params[:id])
